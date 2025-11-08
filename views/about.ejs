@@ -1,0 +1,50 @@
+<%- include('partials/head', { pageTitle: pageTitle || 'About Techi Aid' }) %>
+<%- include('partials/header', { categories }) %>
+      <section class="info-page">
+        <div class="container">
+          <h1>About Techi Aid</h1>
+          <p class="lead">
+            Techi Aid is a curated news desk that rewrites frontier technology coverage—AI, cloud infrastructure, chips, consumer devices, cybersecurity, robotics, and policy—so busy readers can grasp the most important developments in minutes.
+          </p>
+          <div class="info-grid">
+            <section class="info-section">
+              <h2>Our Mission</h2>
+              <p>
+                We believe great coverage should add clarity, not confusion. Every story distills multiple technical sources, highlights real-world impact for operators and teams, and stays grounded in verifiable facts.
+              </p>
+              <ul>
+                <li>Translate dense research updates and regulatory filings into plain English.</li>
+                <li>Connect AI, silicon, software, and policy trends so readers see how the pieces interact.</li>
+                <li>Surface emerging builders alongside established vendors, clouds, and labs.</li>
+              </ul>
+            </section>
+            <section class="info-section">
+              <h2>What We Cover</h2>
+              <p>
+                Our editors track the full emerging-tech stack: foundation-model research, chip manufacturing constraints, cloud deployments, robotics breakthroughs, cybersecurity incidents, consumer launches, and workforce shifts.
+              </p>
+              <ul>
+                <li>Model releases, open-weight drops, cloud platform updates, and safety disclosures.</li>
+                <li>Compute supply, device launches, and tooling that reshape enterprise workflows.</li>
+                <li>Security advisories, regulatory hearings, procurement news, and the downstream impact on teams deploying tech.</li>
+              </ul>
+            </section>
+            <section class="info-section">
+              <h2>How We Work</h2>
+              <p>
+                Articles start with trusted feeds, research repositories, and first-party statements. Editors validate claims, check citations, and produce fresh copy that reflects the evolving facts of each story. We update posts when new information emerges.
+              </p>
+              <p>
+                We apply the same review checklist to every rewrite: confirm the primary source, cross-check numbers, contextualize timelines, and flag speculation. If we cannot confirm a claim, we either omit it or explain the uncertainty.
+              </p>
+            </section>
+            <section class="info-section">
+              <h2>Editorial Team</h2>
+              <p>
+                Techi Aid is operated by editors with backgrounds in tech journalism, product analytics, and policy research. Every byline reflects collaborative editing, fact checking, and copy review from at least two team members.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+<%- include('partials/footer', { lastFetched }) %>
